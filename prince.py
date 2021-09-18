@@ -145,6 +145,7 @@ async def start_vincenzo():
             await ydk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             await ydk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             await ydk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -221,6 +222,7 @@ async def start_vincenzo():
             print("Booting Up The Client 5")
             await sdk.start()
             await sdk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -245,6 +247,7 @@ async def start_vincenzo():
             print("Booting Up The Client 6")
             await adk.start()
             await adk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await adk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -268,6 +271,7 @@ async def start_vincenzo():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
+            await bdk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             await bdk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -294,6 +298,7 @@ async def start_vincenzo():
             print("Booting Up The Client 8")
             await cdk.start()
             await cdk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -317,6 +322,7 @@ async def start_vincenzo():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
+            await ddk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             await ddk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -343,6 +349,7 @@ async def start_vincenzo():
             print("Booting Up The Client 10")
             await edk.start()
             await edk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await edk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -367,6 +374,7 @@ async def start_vincenzo():
         try:
             print("Booting Up The Client 11")
             await vkk.start()
+            await vkk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             await vkk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -393,6 +401,7 @@ async def start_vincenzo():
             print("Booting Up The Client 12")
             await kkk.start()
             await kkk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -417,6 +426,7 @@ async def start_vincenzo():
         try:
             print("Booting Up The Client 13")
             await lkk.start()
+            await lkk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             await lkk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -443,6 +453,7 @@ async def start_vincenzo():
             print("Booting Up The Client 14")
             await mkk.start()
             await mkk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -467,6 +478,7 @@ async def start_vincenzo():
         try:
             print("Booting Up The Client 15")
             await sid.start()
+            await sid(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             await sid(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -494,6 +506,7 @@ async def start_vincenzo():
             await shy.start()
             botme = await shy.get_me()
             await shy(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await shy(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -516,6 +529,7 @@ async def start_vincenzo():
             print("Booting Up The Client 17")
             await aam.start()
             botme = await aan.get_me()
+            await aan(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             await aan(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -540,6 +554,7 @@ async def start_vincenzo():
             await ake.start()
             botme = await ake.get_me()
             await ake(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await ake(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -562,6 +577,7 @@ async def start_vincenzo():
             print("Booting Up The Client 19")
             await eel.start()
             botme = await eel.get_me()
+            await eel(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             await eel(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -586,6 +602,7 @@ async def start_vincenzo():
             await khu.start()
             botme = await khu.get_me()
             await khu(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await khu(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -608,6 +625,7 @@ async def start_vincenzo():
             print("Booting Up The Client 21")
             await shi.start()
             botme = await shi.get_me()
+            await shi(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             await shi(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -632,6 +650,7 @@ async def start_vincenzo():
             await yaa.start()
             botme = await yaa.get_me()
             await yaa(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -655,6 +674,7 @@ async def start_vincenzo():
             await dav.start()
             botme = await dav.get_me()
             await dav(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
+            await dav(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -677,6 +697,7 @@ async def start_vincenzo():
             print("Booting Up The Client 24")
             await raj.start()
             botme = await raj.get_me()
+            await raj(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             await raj(functions.channels.JoinChannelRequest(channel="@secret_cityy"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -719,7 +740,7 @@ async def start_vincenzo():
    
    
 loop = asyncio.get_event_loop()
-loop.run_until_complete(start_vincenzo())       
+loop.run_until_complete(start_prince())       
 
 async def gifspam(e, smex):
     try:
@@ -1001,8 +1022,8 @@ async def alive(event):
     k = sed.id
     s = f"[{kk}](tg://user?id={k})"
     tf = f"""
-**꧁{s}꧂ ᴘʀɪɴᴄᴇ ᴍᴜʟᴛɪ sᴘᴀᴍ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ...
-ʀᴇᴘᴏ:- https://github.com/PRINCE-OP-BOT/PRINCE-MULTI-SPAM-BOT
+**꧁{s}꧂ ᴘʀɪɴᴄᴇ ᴍᴜʟᴛɪ ꜱᴘᴀᴍ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ...
+ʀᴇᴘᴏ:- **[✦✧✧ℙℝ𝕀ℕℂ𝔼 𝕄𝕌𝕃𝕋𝕀 𝕊ℙ𝔸𝕄 𝔹𝕆𝕋✧✧✦](https://github.com/PRINCE-OP-BOT/PRINCE-MULTI-SPAM-BOT)**
 ᴛʏᴘᴇ `.help` ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴛʜɪs ʙᴏᴛ..
 ................. ⎝╰‿╯⎠ ...................
 """
@@ -1099,10 +1120,10 @@ async def spam(e):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         smex = await e.get_reply_message()
         PRINCE = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-        PRINCE = PRINCE[1:]
+        prince = PRINCE[1:]
         if len(vincen) == 2:
-            message = str(PRINCE[1])
-            counter = int(PRINCE[0])
+            message = str(prince[1])
+            counter = int(prince[0])
             sleeptime = float(PRINCE[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
@@ -1112,8 +1133,8 @@ async def spam(e):
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.media:  
-            counter = int(PRINCE[0])
-            sleeptime = float(PRINCE[0])
+            counter = int(vincen[0])
+            sleeptime = float(VINCENZO[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
@@ -1121,8 +1142,8 @@ async def spam(e):
                 await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(PRINCE[0])
-            sleeptime = float(PRINCE[0])
+            counter = int(vincen[0])
+            sleeptime = float(VINCENZO[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
@@ -1162,11 +1183,11 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        PRINCE = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        vincen = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(vincen) == 2:
-            message = str(PRINCE[1])
-            counter = int(PRINCE[0])
+            message = str(vincen[1])
+            counter = int(vincen[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
@@ -1175,7 +1196,7 @@ async def spam(e):
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(0.1)
         elif e.reply_to_msg_id and smex.media:  
-            counter = int(PRINCE[0])
+            counter = int(vincen[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
@@ -1183,7 +1204,7 @@ async def spam(e):
                 await asyncio.sleep(0.1)  
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(PRINCE[0])
+            counter = int(vincen[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
@@ -1223,16 +1244,16 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        prince = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        vincenzo = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(vincenzo) == 2:
-            message = str(prince[1])
+            message = str(vincenzo[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(prince[0])
+            counter = int(vincenzo[0])
             for _ in range(counter):
                 reply = random.choice(RAID)
                 caption = f"{username} {reply}"
@@ -1244,7 +1265,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(prince[0])
+            counter = int(vincenzo[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(RAID)
@@ -1334,10 +1355,10 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        prince = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        vincenzo = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 11:
-            message = str(prince[0])
+            message = str(vincenzo[0])
             a = await e.client.get_entity(message)
             g = a.id
             que[g] = []
@@ -1392,10 +1413,10 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        prince = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        vincenzo = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 12:
-            message = str(prince[0])
+            message = str(vincenzo[0])
             a = await e.client.get_entity(message)
             g = a.id
             try:
@@ -1450,128 +1471,30 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "ᴘʀɪɴᴄᴇ ᴍᴜʟᴛɪ sᴘᴀᴍ ʙᴏᴛ ⎝╰‿╯⎠"
+        text = "ᴠɪɴᴄᴇɴᴢᴏ ᴍᴜʟᴛɪ sᴘᴀᴍ ʙᴏᴛ ⎝╰‿╯⎠"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🇵 🇴 🇳 🇬 !\n`{ms}` 🔰🔰\n ᴘʀɪɴᴄᴇ ᴍᴜʟᴛɪ sᴘᴀᴍ ʙᴏᴛ ⎝╰‿╯⎠ "
+        await event.edit(f"🇵 🇴 🇳 🇬 !\n`{ms}` 🔰🔰\n ᴠɪɴᴄᴇɴᴢᴏ ᴍᴜʟᴛɪ sᴘᴀᴍ ʙᴏᴛ ⎝╰‿╯⎠ "
+                                     
+   
+                   
                          
-                         
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-  async def restart(e):
-      if e.sender_id in SMEX_USERS:
-      text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
-      await e.reply(text, parse_mode=None, link_preview=None )
-        try:
-            await idk.disconnect()
-        except Exception as e:
-            pass
-        try:
-            await ydk.disconnect()
-        except Exception as e:
-            pass
-        try:
-            await wdk.disconnect()
-        except Exception as e:
-            pass
-        try:
-            await hdk.disconnect()
-        except Exception as e:
-            pass
-        try:
-            await sdk.disconnect()
-        except Exception as e:
-            pass
-        try:
-            await adk.disconnect()
-        except Exception as e:
-            pass
-        try:
-            await bdk.disconnect()
-        except Exception as e:
-            pass
-        try:
-            await cdk.disconnect()
-        except Exception as e:
-            pass
-        try:
-            await ddk.disconnect()
-        except Exception as e:
-            pass
-        try:
-            await edk.disconnect()
-        except Exception as e:
-            pass
-        os.execl(sys.executable, sys.executable, *sys.argv)
-        quit()
+                        
+# _______
+
 
         
-        
-         
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 
-async def help(e):
-    if e.sender_id in SMEX_USERS:
-       text = " **welcome to the bot help menu**\n\n __BASIC COMMANDS__:\n.ping\n.alive\n.restart\n\n__USER COMMANDS__:\n.bio\n.join\n.pjoin\n.leave\n\n__SPAM COMMANDS__:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
-       await e.reply(text, parse_mode=None, link_preview=None )
-
-        
+ ####       
 
     
         
-text = """🇧 🇴 🇹   🇩 🇪 🇵 🇱 🇴 🇾 🇪 🇩   🇸 🇺 🇨 🇨 🇪 🇸 🇸 🇫 🇺 🇱 🇱 🇾 🔰🔰🔰......C༙O༙N༙T༙A༙C༙T༙- @superstar_spammer I͒N͒ T͒G͒ F͒O͒R͒ H͒E͒L͒P͒...."""
+text = """🇧 🇴 🇹   🇩 🇪 🇵 🇱 🇴 🇾 🇪 🇩   🇸 🇺 🇨 🇨 🇪 🇸 🇸 🇫 🇺 🇱 🇱 🇾 🔰🔰🔰......C༙O༙N༙T༙A༙C༙T༙- @vincenzo_official I͒N͒ T͒G͒ F͒O͒R͒ H͒E͒L͒P͒...."""
 
 print(text)
 print("")
-print("COOL! YOUR ᴘʀɪɴᴄᴇ ᴍᴜʟᴛɪ ꜱᴘᴀᴍ ʙᴏᴛ STARTED SUCCESFULLY....TYPE .ping TO CHECK....💙💙")
+print("COOL! YOUR VINCENZO_MULTI_SPAM_BOT STARTED SUCCESFULLY....TYPE .ping TO CHECK....💙💙")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
@@ -1774,4 +1697,4 @@ else:
         put.run_until_disconnected()
     except Exception as e:
         pass
-#prince
+#vincenzo
