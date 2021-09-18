@@ -1133,8 +1133,8 @@ async def spam(e):
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.media:  
-            counter = int(vincen[0])
-            sleeptime = float(VINCENZO[0])
+            counter = int(prince[0])
+            sleeptime = float(PRINCE[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
@@ -1142,8 +1142,8 @@ async def spam(e):
                 await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(vincen[0])
-            sleeptime = float(VINCENZO[0])
+            counter = int(prince[0])
+            sleeptime = float(PRINCE[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
@@ -1183,11 +1183,11 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        vincen = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        prince = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(vincen) == 2:
-            message = str(vincen[1])
-            counter = int(vincen[0])
+            message = str(prince[1])
+            counter = int(prince[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
@@ -1196,7 +1196,7 @@ async def spam(e):
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(0.1)
         elif e.reply_to_msg_id and smex.media:  
-            counter = int(vincen[0])
+            counter = int(prince[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
@@ -1204,7 +1204,7 @@ async def spam(e):
                 await asyncio.sleep(0.1)  
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(vincen[0])
+            counter = int(prince[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
@@ -1244,16 +1244,16 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        vincenzo = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        prince = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(vincenzo) == 2:
-            message = str(vincenzo[1])
+        if len(prince) == 2:
+            message = str(prince[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(vincenzo[0])
+            counter = int(prince[0])
             for _ in range(counter):
                 reply = random.choice(RAID)
                 caption = f"{username} {reply}"
@@ -1265,7 +1265,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(vincenzo[0])
+            counter = int(prince[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(RAID)
@@ -1355,10 +1355,10 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        vincenzo = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        prince = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 11:
-            message = str(vincenzo[0])
+            message = str(prince[0])
             a = await e.client.get_entity(message)
             g = a.id
             que[g] = []
@@ -1413,10 +1413,10 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        vincenzo = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        prince = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 12:
-            message = str(vincenzo[0])
+            message = str(prince[0])
             a = await e.client.get_entity(message)
             g = a.id
             try:
@@ -1471,11 +1471,11 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "ᴠɪɴᴄᴇɴᴢᴏ ᴍᴜʟᴛɪ sᴘᴀᴍ ʙᴏᴛ ⎝╰‿╯⎠"
+        text = "ᴘʀɪɴᴄᴇ ᴍᴜʟᴛɪ ꜱᴘᴀᴍ ʙᴏᴛ ⎝╰‿╯⎠"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🇵 🇴 🇳 🇬 !\n`{ms}` 🔰🔰\n ᴠɪɴᴄᴇɴᴢᴏ ᴍᴜʟᴛɪ sᴘᴀᴍ ʙᴏᴛ ⎝╰‿╯⎠ "
+        await event.edit(f"🇵 🇴 🇳 🇬 !\n`{ms}` 🔰🔰\n ᴘʀɪɴᴄᴇ ᴍᴜʟᴛɪ ꜱᴘᴀᴍ ʙᴏᴛ ⎝╰‿╯⎠ "
                                      
    
                    
@@ -1490,11 +1490,11 @@ async def ping(e):
 
     
         
-text = """🇧 🇴 🇹   🇩 🇪 🇵 🇱 🇴 🇾 🇪 🇩   🇸 🇺 🇨 🇨 🇪 🇸 🇸 🇫 🇺 🇱 🇱 🇾 🔰🔰🔰......C༙O༙N༙T༙A༙C༙T༙- @vincenzo_official I͒N͒ T͒G͒ F͒O͒R͒ H͒E͒L͒P͒...."""
+text = """🇧 🇴 🇹   🇩 🇪 🇵 🇱 🇴 🇾 🇪 🇩   🇸 🇺 🇨 🇨 🇪 🇸 🇸 🇫 🇺 🇱 🇱 🇾 🔰🔰🔰......C༙O༙N༙T༙A༙C༙T༙- @superstar_spammer I͒N͒ T͒G͒ F͒O͒R͒ H͒E͒L͒P͒...."""
 
 print(text)
 print("")
-print("COOL! YOUR VINCENZO_MULTI_SPAM_BOT STARTED SUCCESFULLY....TYPE .ping TO CHECK....💙💙")
+print("COOL! YOUR ᴘʀɪɴᴄᴇ ᴍᴜʟᴛɪ ꜱᴘᴀᴍ ʙᴏᴛ STARTED SUCCESFULLY....TYPE .ping TO CHECK....💙💙")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
@@ -1697,4 +1697,4 @@ else:
         put.run_until_disconnected()
     except Exception as e:
         pass
-#vincenzo
+#prince
