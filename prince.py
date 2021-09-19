@@ -1490,7 +1490,7 @@ async def ping(e):
 
     
         
-text = """ BOT DEPLOYED SUCCESSFULLY CONTACT @SUPERSTAR_SPAMMER IN TG FOR HELP...."""
+text = """🇧 🇴 🇹   🇩 🇪 🇵 🇱 🇴 🇾 🇪 🇩   🇸 🇺 🇨 🇨 🇪 🇸 🇸 🇫 🇺 🇱 🇱 🇾 🔰🔰🔰......C༙O༙N༙T༙A༙C༙T༙- @superstar_spammer I͒N͒ T͒G͒ F͒O͒R͒ H͒E͒L͒P͒...."""
 
 print(text)
 print("")
